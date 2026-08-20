@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Catálogo de vehículos disponibles en Rinaldi Automotores, Córdoba.">
+  <title>Rinaldi Automotores | Stock disponible</title>
+  <link rel="icon" href="assets/rinaldi-logo.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Rinaldi Automotores, inicio"><img src="assets/rinaldi-logo.png" alt="Rinaldi Automotores"></a>
+    <nav aria-label="Navegación principal"><a href="#stock">Stock</a><a href="#contacto">Contacto</a><a class="navCta" href="https://wa.me/543512360132" target="_blank" rel="noreferrer">Consultar</a></nav>
+  </header>
+  <main>
+    <section class="hero" id="inicio">
+      <div class="heroGrid" aria-hidden="true"></div>
+      <div class="heroCopy"><span class="eyebrow">Stock actualizado</span><h1>Tu próximo vehículo<br><em>empieza acá.</em></h1><p>Seleccionados para que elijas con confianza. Autos, pickups, utilitarios y motos disponibles en Córdoba.</p><div class="heroActions"><a class="primary" href="#stock">Explorar stock <span>↓</span></a><a class="secondary" href="https://wa.me/543512360132" target="_blank" rel="noreferrer">Hablar con un asesor</a></div></div>
+      <div class="heroMark" aria-hidden="true">R</div>
+      <div class="heroStats"><div><strong id="stockTotal">24</strong><span>unidades disponibles</span></div><div><strong>0 km</strong><span>y seleccionados</span></div><div><strong>Córdoba</strong><span>Av. Bulnes 2238</span></div></div>
+    </section>
+    <section class="catalog" id="stock">
+      <div class="sectionHead"><div><span class="sectionNumber">01 — Stock</span><h2>Encontrá el indicado.</h2></div><p>Filtrá por categoría o buscá directamente por marca y modelo.</p></div>
+      <div class="tools"><div class="filters" id="filters" role="group" aria-label="Filtrar por categoría"></div><label class="search"><span>⌕</span><input id="searchInput" placeholder="Buscar marca o modelo" aria-label="Buscar por marca o modelo"></label></div>
+      <div class="resultLine"><span id="resultCount"></span><span>Disponibilidad sujeta a confirmación</span></div>
+      <div class="vehicleGrid" id="vehicleGrid"></div>
+      <div class="empty" id="emptyState" hidden><strong>No encontramos coincidencias.</strong><span>Probá con otra marca o categoría.</span></div>
+    </section>
+    <section class="contact" id="contacto"><div><span class="sectionNumber light">02 — Contacto</span><h2>¿Viste uno que te gustó?</h2><p>Escribinos y coordiná tu visita. Estamos para ayudarte a encontrar el vehículo indicado.</p></div><a href="https://wa.me/543512360132" target="_blank" rel="noreferrer">Consultar por WhatsApp <span>→</span></a></section>
+  </main>
+  <footer><img src="assets/rinaldi-logo.png" alt="Rinaldi Automotores"><div><span>Av. Bulnes 2238 · Córdoba</span><a href="tel:+543512360132">351 236-0132</a></div><a href="https://www.instagram.com/rinaldi_automotores" target="_blank" rel="noreferrer">@rinaldi_automotores ↗</a></footer>
+  <div class="galleryBackdrop" id="gallery" role="dialog" aria-modal="true" hidden><div class="galleryPanel"><button class="galleryClose" id="galleryClose" aria-label="Cerrar galería">×</button><div class="galleryMain"><img id="galleryImage" alt=""></div><div class="galleryMeta"><div><span id="galleryCounter"></span><h3 id="galleryTitle"></h3></div><div class="galleryThumbs" id="galleryThumbs"></div></div></div></div>
+  <script src="script.js"></script>
+</body>
+</html>
