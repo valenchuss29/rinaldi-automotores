@@ -3,6 +3,5 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "mkdir -p dist && cp index.html styles.css script.js dist/ && cp -R assets dist/assets"
-  }
+"build": "mkdir -p dist/assets && cp index.html styles.css script.js dist/ && cp *.jpeg *.jpg *.png dist/assets/"  }
 }
