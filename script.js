@@ -6,7 +6,6 @@ const vehicles = [
   {name:"Fiat 500 Abarth 595 1.4 165 CV",year:"2018",km:"56.000 km",price:"USD 24.000",category:"Autos",photos:["fiat-abarth-01.jpeg","fiat-abarth-02.jpeg","fiat-abarth-03.jpeg"]},
   {name:"Jeep Renegade 1.8 Sport",year:"2018",km:"74.000 km",price:"$24.500.000",category:"Autos",photos:["jeep-sport-01.jpeg","jeep-sport-02.jpeg","jeep-sport-03.jpeg"]},
   {name:"Honda Wave 110 cc",year:"2026",km:"0 km",price:"$3.700.000",category:"Motos",photos:["honda-wave-01.jpeg","honda-wave-02.jpeg"]},
-  {name:"Yamaha R3",year:"2019",km:"1.300 km",price:"USD 7.000",category:"Motos",photos:["yamaha-r3-01.jpeg","yamaha-r3-02.jpeg"]},
   {name:"Mini Cooper S 2.0 F55 Chili 192 CV",year:"2017",km:"71.000 km",price:"USD 30.000",category:"Autos",photos:["mini-cooper-01.jpeg","mini-cooper-02.jpeg","mini-cooper-03.jpeg"]},
   {name:"Ford Ranger 3.0 CD 4x4 Limited+ AT 250 CV",year:"2024",km:"32.000 km",price:"USD 45.000",category:"Pickups",photos:["ranger-30-01.jpeg","ranger-30-02.jpeg","ranger-30-03.jpeg"]},
   {name:"Peugeot Expert 1.5 Furgón",year:"2025",km:"Consultar",price:"$45.000.000",category:"Utilitarios",photos:["peugeot-expert-01.jpeg","peugeot-expert-02.jpeg","peugeot-expert-03.jpeg"]},
@@ -20,9 +19,11 @@ const vehicles = [
   {name:"Chevrolet S10 2.8 LS CD TDCI 200 CV 4x2",year:"2023",km:"38.000 km",price:"$37.000.000",category:"Pickups",photos:["chevrolet-s10-01.jpeg","chevrolet-s10-02.jpeg","chevrolet-s10-03.jpeg"]},
   {name:"Ford Ranger V6 Limited Plus",year:"2025",km:"400 km",price:"USD 59.000",category:"Pickups",photos:["ranger-v6-limited-01.jpeg","ranger-v6-limited-02.jpeg","ranger-v6-limited-03.jpeg"]},
   {name:"Ford F-150 Raptor",year:"2026",km:"3.000 km",price:"USD 115.000",category:"Pickups",photos:["f150-raptor-01.jpeg","f150-raptor-02.jpeg","f150-raptor-03.jpeg"]},
-  {name:"RAM Dakota 2.2 TD Laramie 4WD AT8",year:"2026",km:"0 km",price:"$65.000.000",category:"Pickups",note:"Patentada",photos:["ram-dakota-01.jpeg","ram-dakota-02.jpeg","ram-dakota-03.jpeg"]},
+  {name:"RAM Dakota 2.2 TD Laramie 4WD AT8",year:"2026",km:"0 km",price:"$72.000.000",category:"Pickups",note:"Patentada",photos:["ram-dakota-01.jpeg","ram-dakota-02.jpeg","ram-dakota-03.jpeg"]},
   {name:"Audi S3",year:"2018",km:"78.000 km",price:"USD 63.000",category:"Autos",photos:["audi-s3-01.jpg","audi-s3-02.jpg","audi-s3-03.jpg"]},
-  {name:"Citroën C4 Picasso 1.6 THP Feel Pack 165 CV",year:"2017",km:"110.000 km",price:"$21.000.000",category:"Autos",photos:["c4-picasso-01.jpeg","c4-picasso-02.jpeg","c4-picasso-03.jpeg"]}
+  {name:"Citroën C4 Picasso 1.6 THP Feel Pack 165 CV",year:"2017",km:"110.000 km",price:"$21.000.000",category:"Autos",photos:["c4-picasso-01.jpeg","c4-picasso-02.jpeg","c4-picasso-03.jpeg"]},
+  {name:"Toyota C-HR HEV 1.8 ECVT",year:"2023",km:"55.000 km",price:"$49.000.000",category:"Autos",photos:["toyota-chr-01.jpg","toyota-chr-02.jpg","toyota-chr-03.jpg"]},
+  {name:"BMW 320i Sport",year:"2017",km:"95.000 km",price:"USD 26.500",category:"Autos",photos:["bmw-320i-01.jpg","bmw-320i-02.png","bmw-320i-03.jpg"]}
 ];
 
 const categories = ["Todos", "Autos", "Pickups", "Utilitarios", "Motos"];
