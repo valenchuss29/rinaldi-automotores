@@ -23,7 +23,10 @@ const vehicles = [
   {name:"Audi S3",year:"2018",km:"78.000 km",price:"USD 63.000",category:"Autos",photos:["audi-s3-01.jpg","audi-s3-02.jpg","audi-s3-03.jpg"]},
   {name:"Citroën C4 Picasso 1.6 THP Feel Pack 165 CV",year:"2017",km:"110.000 km",price:"$21.000.000",category:"Autos",photos:["c4-picasso-01.jpeg","c4-picasso-02.jpeg","c4-picasso-03.jpeg"]},
   {name:"Toyota C-HR HEV 1.8 ECVT",year:"2023",km:"55.000 km",price:"$49.000.000",category:"Autos",photos:["toyota-chr-01.jpg","toyota-chr-02.jpg","toyota-chr-03.jpg"]},
-  {name:"BMW 320i Sport",year:"2017",km:"95.000 km",price:"USD 26.500",category:"Autos",photos:["bmw-320i-01.jpg","bmw-320i-02.png","bmw-320i-03.jpg"]}
+  {name:"BMW 320i Sport",year:"2017",km:"95.000 km",price:"USD 26.500",category:"Autos",photos:["bmw-320i-01.jpg","bmw-320i-02.png","bmw-320i-03.jpg"]},
+  {name:"BMW X5 35i",year:"2017",km:"140.000 km",price:"USD 54.000",category:"Autos",photos:["bmw-x5-01.jpeg","bmw-x5-02.jpeg","bmw-x5-03.jpeg"]},
+  {name:"Jeep Compass 1.3 T270 Limited 4x2 AT6",year:"2025",km:"16.000 km",price:"$49.000.000",category:"Autos",photos:["jeep-compass-01.jpeg","jeep-compass-02.jpeg","jeep-compass-03.jpeg"]},
+  {name:"Ford Territory 1.5 GTDI Trend Híbrida DHT",year:"2026",km:"700 km",price:"$55.000.000",category:"Autos",photos:["ford-territory-01.jpeg","ford-territory-02.jpeg","ford-territory-03.jpeg"]}
 ];
 
 const categories = ["Todos", "Autos", "Pickups", "Utilitarios", "Motos"];
