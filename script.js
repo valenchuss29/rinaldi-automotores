@@ -1,11 +1,9 @@
 const vehicles = [
   {name:"Volkswagen Amarok V6 Comfortline",year:"2022",km:"110.000 km",price:"$45.000.000",category:"Pickups",photos:["amarok-v6-01.jpeg","amarok-v6-02.jpeg","amarok-v6-03.jpeg"]},
-  {name:"Jeep Longitude 1.8 Automática",year:"2018",km:"155.000 km",price:"$23.000.000",category:"Autos",photos:["jeep-longitude-01.jpeg","jeep-longitude-02.jpeg","jeep-longitude-03.jpeg"]},
   {name:"Ford Everest Titanium",year:"2025",km:"16.500 km",price:"$80.000.000",category:"Autos",photos:["ford-everest-01.jpeg","ford-everest-02.jpeg","ford-everest-03.jpeg"]},
   {name:"Ford Ranger V6 XLS",year:"2026",km:"95,8 km",price:"$75.000.000",category:"Pickups",note:"Patentada · Llantas V6 Limited Plus",photos:["ranger-v6-xls-01.jpeg","ranger-v6-xls-02.jpeg","ranger-v6-xls-03.jpeg"]},
   {name:"Fiat 500 Abarth 595 1.4 165 CV",year:"2018",km:"56.000 km",price:"USD 24.000",category:"Autos",photos:["fiat-abarth-01.jpeg","fiat-abarth-02.jpeg","fiat-abarth-03.jpeg"]},
   {name:"Jeep Renegade 1.8 Sport",year:"2018",km:"74.000 km",price:"$24.500.000",category:"Autos",photos:["jeep-sport-01.jpeg","jeep-sport-02.jpeg","jeep-sport-03.jpeg"]},
-  {name:"Honda Wave 110 cc",year:"2026",km:"0 km",price:"$3.700.000",category:"Motos",photos:["honda-wave-01.jpeg","honda-wave-02.jpeg"]},
   {name:"Mini Cooper S 2.0 F55 Chili 192 CV",year:"2017",km:"71.000 km",price:"USD 30.000",category:"Autos",photos:["mini-cooper-01.jpeg","mini-cooper-02.jpeg","mini-cooper-03.jpeg"]},
   {name:"Ford Ranger 3.0 CD 4x4 Limited+ AT 250 CV",year:"2024",km:"32.000 km",price:"USD 45.000",category:"Pickups",photos:["ranger-30-01.jpeg","ranger-30-02.jpeg","ranger-30-03.jpeg"]},
   {name:"Peugeot Expert 1.5 Furgón",year:"2025",km:"Consultar",price:"$45.000.000",category:"Utilitarios",photos:["peugeot-expert-01.jpeg","peugeot-expert-02.jpeg","peugeot-expert-03.jpeg"]},
