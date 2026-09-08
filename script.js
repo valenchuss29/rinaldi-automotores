@@ -1,6 +1,5 @@
 const vehicles = [
   {name:"Volkswagen Amarok V6 Comfortline",year:"2022",km:"110.000 km",price:"$45.000.000",category:"Pickups",photos:["amarok-v6-01.jpeg","amarok-v6-02.jpeg","amarok-v6-03.jpeg"]},
-  {name:"Ford Everest Titanium",year:"2025",km:"16.500 km",price:"$80.000.000",category:"Autos",photos:["ford-everest-01.jpeg","ford-everest-02.jpeg","ford-everest-03.jpeg"]},
   {name:"Ford Ranger V6 XLS",year:"2026",km:"95,8 km",price:"$75.000.000",category:"Pickups",note:"Patentada · Llantas V6 Limited Plus",photos:["ranger-v6-xls-01.jpeg","ranger-v6-xls-02.jpeg","ranger-v6-xls-03.jpeg"]},
   {name:"Fiat 500 Abarth 595 1.4 165 CV",year:"2018",km:"56.000 km",price:"USD 24.000",category:"Autos",photos:["fiat-abarth-01.jpeg","fiat-abarth-02.jpeg","fiat-abarth-03.jpeg"]},
   {name:"Jeep Renegade 1.8 Sport",year:"2018",km:"74.000 km",price:"$24.500.000",category:"Autos",photos:["jeep-sport-01.jpeg","jeep-sport-02.jpeg","jeep-sport-03.jpeg"]},
@@ -16,7 +15,6 @@ const vehicles = [
   {name:"Chevrolet S10 2.8 LS CD TDCI 200 CV 4x2",year:"2023",km:"38.000 km",price:"$37.000.000",category:"Pickups",photos:["chevrolet-s10-01.jpeg","chevrolet-s10-02.jpeg","chevrolet-s10-03.jpeg"]},
   {name:"Ford Ranger V6 Limited Plus",year:"2025",km:"400 km",price:"USD 59.000",category:"Pickups",photos:["ranger-v6-limited-01.jpeg","ranger-v6-limited-02.jpeg","ranger-v6-limited-03.jpeg"]},
   {name:"Ford F-150 Raptor",year:"2026",km:"3.000 km",price:"USD 115.000",category:"Pickups",photos:["f150-raptor-01.jpeg","f150-raptor-02.jpeg","f150-raptor-03.jpeg"]},
-  {name:"RAM Dakota 2.2 TD Laramie 4WD AT8",year:"2026",km:"0 km",price:"$72.000.000",category:"Pickups",note:"Patentada",photos:["ram-dakota-01.jpeg","ram-dakota-02.jpeg","ram-dakota-03.jpeg"]},
   {name:"Audi S3",year:"2018",km:"78.000 km",price:"USD 63.000",category:"Autos",photos:["audi-s3-01.jpg","audi-s3-02.jpg","audi-s3-03.jpg"]},
   {name:"Citroën C4 Picasso 1.6 THP Feel Pack 165 CV",year:"2017",km:"110.000 km",price:"$21.000.000",category:"Autos",photos:["c4-picasso-01.jpeg","c4-picasso-02.jpeg","c4-picasso-03.jpeg"]},
   {name:"Toyota C-HR HEV 1.8 ECVT",year:"2023",km:"55.000 km",price:"$49.000.000",category:"Autos",photos:["toyota-chr-01.jpg","toyota-chr-02.jpg","toyota-chr-03.jpg"]},
@@ -24,11 +22,11 @@ const vehicles = [
   {name:"BMW X5 35i",year:"2017",km:"140.000 km",price:"USD 54.000",category:"Autos",photos:["bmw-x5-01.jpeg","bmw-x5-02.jpeg","bmw-x5-03.jpeg"]},
   {name:"Jeep Compass 1.3 T270 Limited 4x2 AT6",year:"2025",km:"16.000 km",price:"$49.000.000",category:"Autos",photos:["jeep-compass-01.jpeg","jeep-compass-02.jpeg","jeep-compass-03.jpeg"]},
   {name:"Ford Territory 1.5 GTDI Trend Híbrida DHT",year:"2026",km:"700 km",price:"$55.000.000",category:"Autos",photos:["ford-territory-01.jpeg","ford-territory-02.jpeg","ford-territory-03.jpeg"]},
-  {name:"Triumph Speed 400",year:"2026",km:"0 km",price:"$12.500.000",category:"Motos",photos:["triumph-speed-400-01.jpg","triumph-speed-400-02.jpg"]},
-  {name:"Triumph Scrambler 400 X",year:"2026",km:"0 km",price:"$13.500.000",category:"Motos",photos:["triumph-scrambler-400x-01.jpg","triumph-scrambler-400x-02.jpg","triumph-scrambler-400x-03.jpg"]},
   {name:"Fiat Fiorino Endurance 1.3 MT",year:"2026",km:"0 km",price:"$29.500.000",category:"Utilitarios",note:"+ Patentamiento (FyF)",photos:["fiat-fiorino-01.jpg","fiat-fiorino-02.jpg","fiat-fiorino-03.jpg"]},
   {name:"Ford Ka 1.5 SE",year:"2016",km:"144.000 km",price:"$14.500.000",category:"Autos",photos:["ford-ka-01.png","ford-ka-02.png","ford-ka-03.jpg"]},
-  {name:"Peugeot 308 Feline 1.6 THP Tiptronic",year:"2017",km:"62.000 km",price:"$19.000.000",category:"Autos",photos:["peugeot-308-01.jpg","peugeot-308-02.jpg","peugeot-308-03.jpg"]}
+  {name:"Peugeot 308 Feline 1.6 THP Tiptronic",year:"2017",km:"62.000 km",price:"$19.000.000",category:"Autos",photos:["peugeot-308-01.jpg","peugeot-308-02.jpg","peugeot-308-03.jpg"]},
+  {name:"Ford Ranger Raptor",year:"2020",km:"87.000 km",price:"USD 37.000",category:"Pickups",photos:["ranger-raptor-2020-01.png","ranger-raptor-2020-02.jpg","ranger-raptor-2020-03.jpg"]},
+  {name:"Ford Everest 2.3 GTDI EcoBoost Titanium 4x4 AT",year:"2026",km:"7.500 km",price:"$90.000.000",category:"Autos",photos:["ford-everest-2026-01.jpg","ford-everest-2026-02.jpg","ford-everest-2026-03.jpg"]}
 ];
 
 const categories = ["Todos", "Autos", "Pickups", "Utilitarios", "Motos"];
