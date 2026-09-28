@@ -23,7 +23,7 @@ const vehicles = [
   {name:"Ford Ranger Raptor",year:"2025",km:"16.000 km",price:"USD 79.000",category:"Pickups",photos:["ranger-raptor-2025-01.jpeg","ranger-raptor-2025-02.jpeg","ranger-raptor-2025-03.jpeg"]},
   {name:"Chery Tiggo 7 Pro Hybrid",year:"2026",km:"5.000 km",price:"$46.000.000",category:"Autos",photos:["chery-tiggo-7-pro-01.jpeg","chery-tiggo-7-pro-02.jpeg","chery-tiggo-7-pro-03.jpeg"]},
   {name:"Peugeot 408 THP Allure Plus",year:"2018",km:"61.000 km",price:"$18.000.000",category:"Autos",photos:["peugeot-408-allure-plus-01.jpeg","peugeot-408-allure-plus-02.jpeg","peugeot-408-allure-plus-03.jpeg"]},
-  {name:"Citroën C4 Cactus Feel Pack",year:"2020",km:"95.000 km",price:"$18.000.000",category:"Autos",photos:["citroen-c4-cactus-01.jpeg","citroen-c4-cactus-02.jpeg","citroen-c4-cactus-03.jpeg"]},
+  {name:"Citroën C4 Cactus Feel Pack",year:"2020",km:"95.000 km",price:"$20.000.000",category:"Autos",photos:["citroen-c4-cactus-01.jpeg","citroen-c4-cactus-02.jpeg","citroen-c4-cactus-03.jpeg"]},
   {name:"Ford Ka S 1.5",year:"2018",km:"110.000 km",price:"$16.000.000",category:"Autos",photos:["ford-ka-s-2018-01.jpeg","ford-ka-s-2018-02.jpeg","ford-ka-s-2018-03.jpeg"]},
   {name:"Fiat Toro Freedom 2.0 4x2",year:"2017",km:"113.000 km",price:"$18.000.000",category:"Pickups",photos:["fiat-toro-freedom-01.jpeg","fiat-toro-freedom-02.jpeg","fiat-toro-freedom-03.jpeg"]}
 ];
