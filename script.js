@@ -19,13 +19,12 @@ const vehicles = [
   {name:"Ford Everest 2.3 GTDI EcoBoost Titanium 4x4 AT",year:"2026",km:"7.500 km",price:"$90.000.000",category:"Autos",photos:["ford-everest-2026-01.jpg","ford-everest-2026-02.jpg","ford-everest-2026-03.jpg"]},
   {name:"Volkswagen Amarok V6 Confortline",year:"2021",km:"180.000 km",price:"$43.000.000",category:"Pickups",photos:["amarok-highline-2017-01.png","amarok-highline-2017-02.png","amarok-highline-2017-03.jpeg"]},
   {name:"Jeep Renegade Sport Automática",year:"2019",km:"32.000 km",price:"$26.000.000",category:"Autos",photos:["jeep-renegade-sport-2019-01.png","jeep-renegade-sport-2019-02.png","jeep-renegade-sport-2019-03.jpeg"]},
-  {name:"Volkswagen Amarok Highline 4x2 Automática",year:"2017",km:"180.000 km",price:"$35.000.000",category:"Pickups",photos:["amarok-v6-confortline-2021-01.jpeg","amarok-v6-confortline-2021-02.jpeg","amarok-v6-confortline-2021-03.jpeg"]},
   {name:"Ford Ranger Raptor",year:"2025",km:"16.000 km",price:"USD 79.000",category:"Pickups",photos:["ranger-raptor-2025-01.jpeg","ranger-raptor-2025-02.jpeg","ranger-raptor-2025-03.jpeg"]},
   {name:"Chery Tiggo 7 Pro Hybrid",year:"2026",km:"5.000 km",price:"$46.000.000",category:"Autos",photos:["chery-tiggo-7-pro-01.jpeg","chery-tiggo-7-pro-02.jpeg","chery-tiggo-7-pro-03.jpeg"]},
   {name:"Peugeot 408 THP Allure Plus",year:"2018",km:"61.000 km",price:"$18.000.000",category:"Autos",photos:["peugeot-408-allure-plus-01.jpeg","peugeot-408-allure-plus-02.jpeg","peugeot-408-allure-plus-03.jpeg"]},
-  {name:"Citroën C4 Cactus Feel Pack",year:"2020",km:"95.000 km",price:"$20.000.000",category:"Autos",photos:["citroen-c4-cactus-01.jpeg","citroen-c4-cactus-02.jpeg","citroen-c4-cactus-03.jpeg"]},
-  {name:"Ford Ka S 1.5",year:"2018",km:"110.000 km",price:"$16.000.000",category:"Autos",photos:["ford-ka-s-2018-01.jpeg","ford-ka-s-2018-02.jpeg","ford-ka-s-2018-03.jpeg"]},
-  {name:"Fiat Toro Freedom 2.0 4x2",year:"2017",km:"113.000 km",price:"$18.000.000",category:"Pickups",photos:["fiat-toro-freedom-01.jpeg","fiat-toro-freedom-02.jpeg","fiat-toro-freedom-03.jpeg"]}
+  {name:"Fiat Toro Freedom 2.0 4x2",year:"2017",km:"113.000 km",price:"$18.000.000",category:"Pickups",photos:["fiat-toro-freedom-01.jpeg","fiat-toro-freedom-02.jpeg","fiat-toro-freedom-03.jpeg"]},
+  {name:"BYD Dolphin Mini GS",year:"2026",km:"50 km",price:"USD 26.000",category:"Autos",note:"+ Patentamiento",photos:["byd-dolphin-mini-gs-01.jpg","byd-dolphin-mini-gs-02.jpg","byd-dolphin-mini-gs-03.jpg"]},
+  {name:"Peugeot 308 Feline THP Tiptronic",year:"2018",km:"108.000 km",price:"$18.500.000",category:"Autos",photos:["peugeot-308-feline-2018-01.jpg","peugeot-308-feline-2018-02.jpg","peugeot-308-feline-2018-03.jpg"]}
 ];
 
 const categories = ["Todos", "Autos", "Pickups", "Utilitarios", "Motos"];
