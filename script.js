@@ -1,7 +1,6 @@
 const vehicles = [
-  {name:"Volkswagen Amarok 2.0 CD TDI 140 CV Trendline",year:"2022",km:"180.000 km",price:"$31.000.000",category:"Pickups",photos:["amarok-v6-01.jpeg","amarok-v6-02.jpeg","amarok-v6-03.jpeg"]},
+  {name:"Volkswagen Amarok 2.0 CD TDI 140 CV Trendline",year:"2022",km:"180.000 km",price:"$31.000.000",category:"Pickups",photos:["amarok-20-trendline-2022-01.jpeg","amarok-20-trendline-2022-02.jpeg","amarok-20-trendline-2022-03.jpeg"]},
   {name:"Ford Ranger V6 XLS",year:"2026",km:"95,8 km",price:"$75.000.000",category:"Pickups",note:"Patentada · Llantas V6 Limited Plus",photos:["ranger-v6-xls-01.jpeg","ranger-v6-xls-02.jpeg","ranger-v6-xls-03.jpeg"]},
-  {name:"Jeep Renegade 1.8 Sport",year:"2018",km:"74.000 km",price:"$24.500.000",category:"Autos",photos:["jeep-sport-01.jpeg","jeep-sport-02.jpeg","jeep-sport-03.jpeg"]},
   {name:"Ford Ranger 3.0 CD 4x4 Limited+ AT 250 CV",year:"2024",km:"32.000 km",price:"USD 45.000",category:"Pickups",photos:["ranger-30-01.jpeg","ranger-30-02.jpeg","ranger-30-03.jpeg"]},
   {name:"Peugeot Expert 1.5 Furgón",year:"2025",km:"Consultar",price:"$45.000.000",category:"Utilitarios",photos:["peugeot-expert-01.jpeg","peugeot-expert-02.jpeg","peugeot-expert-03.jpeg"]},
   {name:"Renault Master Furgón L1H1 HDI",year:"2014",km:"150.000 km",price:"$34.000.000",category:"Utilitarios",photos:["renault-master-01.jpeg","renault-master-02.jpeg","renault-master-03.jpeg"]},
@@ -11,19 +10,19 @@ const vehicles = [
   {name:"Porsche Panamera Turbo",year:"2012",km:"57.000 km",price:"USD 180.000",category:"Autos",photos:["porsche-panamera-01.jpeg","porsche-panamera-02.jpeg","porsche-panamera-03.jpeg"]},
   {name:"Chevrolet S10 2.8 LS CD TDCI 200 CV 4x2",year:"2023",km:"38.000 km",price:"$37.000.000",category:"Pickups",photos:["chevrolet-s10-01.jpeg","chevrolet-s10-02.jpeg","chevrolet-s10-03.jpeg"]},
   {name:"Ford Ranger V6 Limited Plus",year:"2025",km:"400 km",price:"USD 59.000",category:"Pickups",photos:["ranger-v6-limited-01.jpeg","ranger-v6-limited-02.jpeg","ranger-v6-limited-03.jpeg"]},
-  {name:"Toyota C-HR HEV 1.8 ECVT",year:"2023",km:"55.000 km",price:"$49.000.000",category:"Autos",photos:["toyota-chr-01.jpg","toyota-chr-02.jpg","toyota-chr-03.jpg"]},
   {name:"BMW X5 35i",year:"2017",km:"140.000 km",price:"USD 54.000",category:"Autos",photos:["bmw-x5-01.jpeg","bmw-x5-02.jpeg","bmw-x5-03.jpeg"]},
   {name:"BMW 320i Sport",year:"2017",km:"95.000 km",price:"USD 26.500",category:"Autos",photos:["bmw-320i-sport-2017-01.jpg","bmw-320i-sport-2017-02.jpg","bmw-320i-sport-2017-03.png"]},
   {name:"Ford Territory 1.5 GTDI Trend Híbrida DHT",year:"2026",km:"700 km",price:"$55.000.000",category:"Autos",photos:["ford-territory-01.jpeg","ford-territory-02.jpeg","ford-territory-03.jpeg"]},
   {name:"Fiat Fiorino Endurance 1.3 MT",year:"2026",km:"0 km",price:"$29.500.000",category:"Utilitarios",note:"+ Patentamiento (FyF)",photos:["fiat-fiorino-01.jpg","fiat-fiorino-02.jpg","fiat-fiorino-03.jpg"]},
-  {name:"Ford Ranger Raptor",year:"2020",km:"87.000 km",price:"USD 37.000",category:"Pickups",photos:["ranger-raptor-2020-01.png","ranger-raptor-2020-02.jpg","ranger-raptor-2020-03.jpg"]},
   {name:"Ford Everest 2.3 GTDI EcoBoost Titanium 4x4 AT",year:"2026",km:"7.500 km",price:"$90.000.000",category:"Autos",photos:["ford-everest-2026-01.jpg","ford-everest-2026-02.jpg","ford-everest-2026-03.jpg"]},
   {name:"Volkswagen Amarok V6 Confortline",year:"2021",km:"180.000 km",price:"$43.000.000",category:"Pickups",photos:["amarok-highline-2017-01.png","amarok-highline-2017-02.png","amarok-highline-2017-03.jpeg"]},
-  {name:"Jeep Renegade Sport Automática",year:"2019",km:"32.000 km",price:"$26.000.000",category:"Autos",photos:["jeep-renegade-sport-2019-01.png","jeep-renegade-sport-2019-02.png","jeep-renegade-sport-2019-03.jpeg"]},
   {name:"Ford Ranger Raptor",year:"2025",km:"16.000 km",price:"USD 79.000",category:"Pickups",photos:["ranger-raptor-2025-01.jpeg","ranger-raptor-2025-02.jpeg","ranger-raptor-2025-03.jpeg"]},
   {name:"Chery Tiggo 7 Pro Hybrid",year:"2026",km:"5.000 km",price:"$46.000.000",category:"Autos",photos:["chery-tiggo-7-pro-01.jpeg","chery-tiggo-7-pro-02.jpeg","chery-tiggo-7-pro-03.jpeg"]},
   {name:"Fiat Toro Freedom 2.0 4x2",year:"2017",km:"113.000 km",price:"$18.000.000",category:"Pickups",photos:["fiat-toro-freedom-01.jpeg","fiat-toro-freedom-02.jpeg","fiat-toro-freedom-03.jpeg"]},
-  {name:"BYD Dolphin Mini GS",year:"2026",km:"50 km",price:"USD 26.000",category:"Autos",note:"+ Patentamiento",photos:["byd-dolphin-mini-gs-01.jpg","byd-dolphin-mini-gs-02.jpg","byd-dolphin-mini-gs-03.jpg"]}
+  {name:"BYD Dolphin Mini GS",year:"2026",km:"50 km",price:"USD 26.000",category:"Autos",note:"+ Patentamiento",photos:["byd-dolphin-mini-gs-01.jpg","byd-dolphin-mini-gs-02.jpg","byd-dolphin-mini-gs-03.jpg"]},
+  {name:"Porsche Cayenne",year:"2019",km:"47.000 km",price:"USD 95.000",category:"Autos",photos:["porsche-cayenne-2019-01.jpeg","porsche-cayenne-2019-02.jpeg","porsche-cayenne-2019-03.jpeg"]},
+  {name:"Mercedes-Benz Clase GLE Sport 4Matic",year:"2019",km:"116.000 km",price:"USD 70.000",category:"Autos",photos:["mercedes-gle-sport-2019-01.jpeg","mercedes-gle-sport-2019-02.jpeg","mercedes-gle-sport-2019-03.jpeg"]},
+  {name:"Ford Ranger V6 Limited+",year:"2023",km:"55.000 km",price:"USD 42.000",category:"Pickups",photos:["ford-ranger-v6-limited-2023-01.jpeg","ford-ranger-v6-limited-2023-02.jpeg","ford-ranger-v6-limited-2023-03.jpeg"]}
 ];
 
 const categories = ["Todos", "Autos", "Pickups", "Utilitarios", "Motos"];
